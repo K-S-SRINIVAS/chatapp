@@ -1,6 +1,6 @@
 import express from 'express'
 import { protectRoute } from '../middlewares/auth.js';
-import { getMessages, getFriendsList, markMessageAsSeen, sendMessage,sendInvite, acceptInvite,rejectInvite,getInvitations,removeFriend } from '../controller/messagecontroller.js';
+import { getMessages, getFriendsList, markMessageAsSeen, sendMessage,sendInvite, acceptInvite,rejectInvite,getInvitations,removeFriend } from '../controller/messageController.js';
 
 const messageRouter=express.Router();
 
