@@ -26,4 +26,4 @@ client/dist-ssr
 *.sw?
 
 # env variables files
-*/.env
+server/.env
