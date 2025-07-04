@@ -24,7 +24,7 @@ const Loginpage = () => {
   }
 
   return (
-    <div className="bg-[url('./src/assets/bgImageLogin.jpg')]  bg-[length:100%_100%] bg-no-repeat min-h-screen flex items-center justify-start sm:pl-[20%] max-sm:pl-[5%] ">
+    <div className="bg-[url('/bgImageLogin.jpg')]  bg-[length:100%_100%] bg-no-repeat min-h-screen flex items-center justify-start sm:pl-[20%] max-sm:pl-[5%] ">
 
        <form onSubmit={onSubmitHandler } className='border-2 border-gray-500 bg-[#3c89902e] text-white p-6 flex flex-col gap-6 rounded-lg shadow-lg  '>
          
